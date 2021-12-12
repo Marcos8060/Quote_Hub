@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-form',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
+  @Output() createdQuote = new EventEmitter<{quote:string,author:string,blogger:string}>();
+  newQuote = '';
+  newAuthor = '';
+  newBlogger = '';
+
+
+  addQuote(){
+    this.createdQuote.emit({quote:this.newQuote,author:this.newAuthor,blogger:this.newBlogger});
+  }
 
   constructor() { }
 

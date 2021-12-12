@@ -1,3 +1,4 @@
+import { QuoteComponent } from './quote/quote.component';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quote-app';
+  quotes:any[] = [{id:0,quote:'Home is best',author:'Marcos',blogger:'Trevor'}];
+
+
+  onCreatedQuote(quoteData:{quote:string,author:string,blogger:string}){
+    this.quotes.push({
+      id: 1,
+      quote: quoteData.quote,
+      author: quoteData.author,
+      blogger: quoteData.blogger
+    })
+  }
+
 }
+
