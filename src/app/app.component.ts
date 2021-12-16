@@ -15,5 +15,12 @@ export class AppComponent {
       'Coach pain',
       'Marcos Ochieng')
   ];
+
+  onAddQuote(quote:Quote){
+    this.quotes.push(quote);
+  }
+  removedQuote(id:number){
+    this.quotes = this.quotes.filter((quote)=> quote.id != id)
+  }
 }
 

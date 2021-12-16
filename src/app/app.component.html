@@ -1,7 +1,8 @@
 <app-header></app-header>
 <div class="container">
-  <app-form></app-form>
+  <app-form (quoteAdded)="onAddQuote($event)"></app-form>
   <app-quote 
+  (quoteRemoved)="removedQuote(singleQuote.id)"
   *ngFor="let singleQuote of quotes"
   [quote]="singleQuote"></app-quote>
 </div>

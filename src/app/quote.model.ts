@@ -3,6 +3,8 @@ export class Quote{
     public quote!: string;
     public author!: string;
     public blogger!: string;
+    public upvotes = 0;
+    public downvotes = 0;
 
     static generateRandomId(){
         return Math.floor(Math.random() * 10000)

@@ -1,13 +1,13 @@
 <label for="quote" class="form-label">Quote</label>
 <div class="form-floating">
-    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" #quoteInput></textarea>
     <label for="floatingTextarea">Enter quote...</label>
 </div>
 <label for="author" class="form-label">Author</label>
-<input type="text" class="form-control" placeholder="Author...">
+<input type="text" class="form-control" placeholder="Author..." #authorInput>
 <label for="author" class="form-label">Author</label>
-<input type="text" class="form-control" placeholder="Blogger...">
-<button class="btn btn-success text-uppercase mt-4">Add</button>
+<input type="text" class="form-control" placeholder="Blogger..." #bloggerInput>
+<button (click)="addQuote()" class="btn btn-success text-uppercase mt-4">Add</button>
 
 
 
