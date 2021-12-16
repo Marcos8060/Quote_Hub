@@ -18,4 +18,10 @@ export class QuoteComponent implements OnInit {
     this.quoteRemoved.emit();
   }
 
+  upVote(){
+    this.quote.upvotes++
+  }
+  downVote(){
+    this.quote.downvotes++
+  }
 }

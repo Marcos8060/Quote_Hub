@@ -5,6 +5,7 @@ export class Quote{
     public blogger!: string;
     public upvotes = 0;
     public downvotes = 0;
+    public date! : string;
 
     static generateRandomId(){
         return Math.floor(Math.random() * 10000)
