@@ -11,7 +11,7 @@ export class AppComponent {
   quotes : Quote[] = [
     new Quote(
       Quote.generateRandomId(),
-      'Whenever you feel like giving up,remember why you started in the first place',
+      'In order to get something you never had, you have to do something you never did',
       'Coach pain',
       'Marcos Ochieng')
   ];
