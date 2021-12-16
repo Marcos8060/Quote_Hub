@@ -1,15 +1,6 @@
-.quote{
-    background: #193F43;
-    color: white;
-    padding-bottom: 20px;
-}
-.btn{
-    background: #F27730;
-    color: white;
-    border-radius: 10px;
-    height: 38px;
-    font-weight: bolder;
-}
-span{
-    color: #F27730;
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }

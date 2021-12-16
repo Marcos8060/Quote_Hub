@@ -1,21 +1,17 @@
-<div class="row mt-5">
-    <h1 class="text-center mb-5">Create a <span>Quote</span></h1>
-    <!-- <div class="underline"></div> -->
-    <div class="col-md-5">
-        <h3>Take this bold step and propel your skills to the next level</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt dolores
-             aperiam voluptas, ipsum ab et reprehenderit assumenda consequuntur. Sapiente
-              dolor laborum similique dicta doloremque sit officiis impedit corporis fuga.
-        </p>
-        <button class="btn text-uppercase">Read more</button>
-    </div>
-    <div class="col-md-7">
-        <label for="quote" class="form-label">Quote</label>
-        <input type="text" class="form-control" placeholder="Enter quote..." [(ngModel)]="newQuote">
-        <label for="author" class="form-label">Author</label>
-        <input type="text" class="form-control" placeholder="Author name..." [(ngModel)]="newAuthor">
-        <label for="blogger" class="form-label">Blogger</label>
-        <input type="text" class="form-control" placeholder="Blogger's name..." [(ngModel)]="newBlogger">
-        <button (click)="addQuote()" class="text-uppercase btn mt-2">submit</button>
-    </div>
+<label for="quote" class="form-label">Quote</label>
+<div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Enter quote...</label>
 </div>
+<label for="author" class="form-label">Author</label>
+<input type="text" class="form-control" placeholder="Author...">
+<label for="author" class="form-label">Author</label>
+<input type="text" class="form-control" placeholder="Blogger...">
+<button class="btn btn-success text-uppercase mt-4">Add</button>
+
+<div class="quote">
+    <app-quote></app-quote>
+</div>
+
+
+

@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HeroComponent } from './hero/hero.component';
 import { FormComponent } from './form/form.component';
 import { QuoteComponent } from './quote/quote.component';
 
@@ -13,9 +12,8 @@ import { QuoteComponent } from './quote/quote.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    HeroComponent,
     FormComponent,
-    QuoteComponent
+    QuoteComponent,
   ],
   imports: [
     BrowserModule,
