@@ -1,24 +1,11 @@
-.nav-item a{
-    text-transform: uppercase;
-    color: black;
-}
-
-.navbar{
+.header{
+    background: #26899E;
+    height: 100px;
     margin-bottom: 30px;
-}
-
-.navbar-brand{
-    font-weight: bolder;
-    font-family: 'Dancing Script', cursive;
-    background:  #C59D5F;
-    border-radius: 10px;
+    text-align: center;
     color: white;
-    padding: 5px;
-    font-size: 30px;
 }
-span{
-    color: crimson;
-}
-.navbar-toggler-icon{
-    color: white;
+.header h1{
+    padding-top: 30px;
+    font-family: italic;
 }

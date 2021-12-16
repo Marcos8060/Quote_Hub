@@ -1,11 +1,14 @@
 <app-header></app-header>
-<div class="container">
+<div class="container-fluid">
   <app-form (quoteAdded)="onAddQuote($event)"></app-form>
-  <app-quote 
-  (quoteRemoved)="removedQuote(singleQuote.id)"
-  *ngFor="let singleQuote of quotes"
-  [quote]="singleQuote"></app-quote>
-  <app-quote-details 
-  *ngFor="let singleQuote of quotes"
-  [quote]="singleQuote"></app-quote-details>
+</div>
+<div class="container-fluid">
+        <app-quote 
+      (quoteRemoved)="removedQuote(singleQuote.id)"
+      *ngFor="let singleQuote of quotes"
+      [quote]="singleQuote"></app-quote>
+      <hr>
+      <app-quote-details 
+      *ngFor="let singleQuote of quotes"
+      [quote]="singleQuote"></app-quote-details>
 </div>

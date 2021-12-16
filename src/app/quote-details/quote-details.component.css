@@ -1,0 +1,20 @@
+.details{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upvotes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.downvotes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
