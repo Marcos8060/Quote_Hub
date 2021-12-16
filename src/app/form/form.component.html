@@ -8,7 +8,7 @@
     <input type="text" class="form-control" placeholder="Author..." #authorInput>
     <label for="author" class="form-label">Author</label>
     <input type="text" class="form-control" placeholder="Blogger..." #bloggerInput>
-    <button (click)="addQuote()" class="btn text-uppercase mt-4">Add</button>
+    <button (click)="addQuote();quoteInput.value = '';authorInput.value = '';bloggerInput.value = ''" class="btn text-uppercase mt-4">Add</button>
 </div>
 
 
