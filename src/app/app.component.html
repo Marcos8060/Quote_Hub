@@ -5,4 +5,7 @@
   (quoteRemoved)="removedQuote(singleQuote.id)"
   *ngFor="let singleQuote of quotes"
   [quote]="singleQuote"></app-quote>
+  <app-quote-details 
+  *ngFor="let singleQuote of quotes"
+  [quote]="singleQuote"></app-quote-details>
 </div>
