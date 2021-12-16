@@ -1,4 +1,7 @@
 <app-header></app-header>
 <div class="container">
   <app-form></app-form>
+  <app-quote 
+  *ngFor="let singleQuote of quotes"
+  [quote]="singleQuote"></app-quote>
 </div>

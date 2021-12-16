@@ -1,5 +1,6 @@
 
 import { Component } from '@angular/core';
+import { Quote } from './quote.model';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  quotes : Quote[] = [
+    new Quote(
+      Quote.generateRandomId(),
+      'Whenever you feel like giving up,remember why you started in the first place',
+      'Coach pain',
+      'Marcos Ochieng')
+  ];
 }
 
