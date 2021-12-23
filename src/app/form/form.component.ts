@@ -22,7 +22,7 @@ export class FormComponent implements OnInit {
     const quote = this.quoteInputRef.nativeElement.value;
     const author = this.authorInputRef.nativeElement.value;
     const blogger = this.bloggerInputRef.nativeElement.value;
-    const addedQuote = new Quote(Quote.generateRandomId(),quote,author,blogger);
+    const addedQuote = new Quote(Quote.getRandomId(),quote,author,blogger);
     this.quoteAdded.emit(addedQuote);
   }
 

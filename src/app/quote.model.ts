@@ -7,7 +7,7 @@ export class Quote{
     public downvotes = 0;
     public startTime = new Date().getTime();
 
-    static generateRandomId(){
+    static getRandomId(){
         return Math.floor(Math.random() * 10000)
     }
 

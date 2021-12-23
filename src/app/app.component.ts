@@ -10,7 +10,7 @@ import { Quote } from './quote.model';
 export class AppComponent {
   quotes : Quote[] = [
     new Quote(
-      Quote.generateRandomId(),
+      Quote.getRandomId(),
       'In order to get something you never had, you have to do something you never did',
       'Coach pain',
       'Marcos Ochieng')
