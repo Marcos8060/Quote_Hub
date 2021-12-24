@@ -3,6 +3,7 @@
   <app-form (quoteAdded)="onAddQuote($event)"></app-form>
 </div>
 <div class="container-fluid">
+        <app-icons></app-icons>
         <app-quote 
       (quoteRemoved)="removedQuote(singleQuote.id)"
       *ngFor="let singleQuote of quotes"
