@@ -3,13 +3,17 @@
   <app-form (quoteAdded)="onAddQuote($event)"></app-form>
 </div>
 <div class="container-fluid">
-        <app-icons></app-icons>
-        <app-quote 
+  <div class="row">
+    <div class="col-md-7">
+      <app-quote 
       (quoteRemoved)="removedQuote(singleQuote.id)"
       *ngFor="let singleQuote of quotes"
       [quote]="singleQuote"></app-quote>
-      <hr>
+    </div>
+    <div class="col-md-5">
       <app-quote-details 
       *ngFor="let singleQuote of quotes"
-      [quote]="singleQuote"></app-quote-details>
+      [quote]="singleQuote"></app-quote-details><br><br><br>
+    </div>
+  </div>
 </div>

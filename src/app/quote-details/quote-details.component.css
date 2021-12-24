@@ -1,7 +1,10 @@
 .details{
-    width: 50%;
-    margin: auto;
+    width: 100%;
     text-align: center;
+    background: #f5f4f4;
+    padding: 30px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 6px 2px gray;
 }
 .author{
     display: flex;
