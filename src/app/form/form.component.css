@@ -1,9 +1,14 @@
+.form_container{
+    background: #E5E5E5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .form{
     width: 50%;
     margin: auto;
 }
 .btn{
-    background: #26899E;
+    background: #1C4086;
     color: white;
     margin-bottom: 20px;
 }

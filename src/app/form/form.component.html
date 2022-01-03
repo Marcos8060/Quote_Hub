@@ -1,14 +1,16 @@
-<div class="form">
-    <label for="quote" class="form-label">Quote</label>
-    <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 80px" #quoteInput></textarea>
-        <label for="floatingTextarea2">Enter Quote</label>
+<div class="form_container">
+    <div class="form">
+        <label for="quote" class="form-label">Quote</label>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 80px" #quoteInput></textarea>
+            <label for="floatingTextarea2">Enter Quote</label>
+        </div>
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" placeholder="Author..." #authorInput>
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" placeholder="Blogger..." #bloggerInput>
+        <button (click)="addQuote();quoteInput.value = '';authorInput.value = '';bloggerInput.value = ''" class="btn text-uppercase mt-4">Post quote</button>
     </div>
-    <label for="author" class="form-label">Author</label>
-    <input type="text" class="form-control" placeholder="Author..." #authorInput>
-    <label for="author" class="form-label">Author</label>
-    <input type="text" class="form-control" placeholder="Blogger..." #bloggerInput>
-    <button (click)="addQuote();quoteInput.value = '';authorInput.value = '';bloggerInput.value = ''" class="btn text-uppercase mt-4">Add</button>
 </div>
 
 
