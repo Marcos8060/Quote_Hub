@@ -7,6 +7,7 @@
     justify-content: space-between;
     width: 90%;
     margin-left: auto;
+    height: 100vh;
 }
 .hero > div >  img{
     flex: 0.7;
@@ -19,7 +20,7 @@
     font-size: 30px;
 }
 .hero > div > button{
-    background: #1C4086;
+    background: #C4362E;
     color: white;
     border: none;
     height: 45px;
@@ -29,7 +30,7 @@
 }
 .hero > div > button:hover{
     background: white;
-    color: #1C4086;
-    border: 2px solid #1C4086;
+    color: #C4362E;
+    border: 2px solid #C4362E;
     transition: 1s ease-in-out
 }

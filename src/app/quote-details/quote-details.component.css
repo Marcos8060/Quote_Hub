@@ -1,11 +1,12 @@
 .details{
     width: 100%;
     text-align: center;
-    background: #f5f4f4;
+    background: #EEEEEE;
     padding: 30px;
-    margin-top: 130px;
-    box-shadow: 0px 0px 6px 2px gray;
-    border-radius: 20px;
+    margin-top: 140px;
+    /* border-radius: 20px; */
+    box-shadow: 0px 0px 6px 1px gray;
+    color: gray;
 }
 .author{
     display: flex;

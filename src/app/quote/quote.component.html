@@ -3,6 +3,7 @@
     <div class="col-md-6 quote" [ngClass]="{highlight: quote.upvotes > quote.id}">
       <q>{{ quote.quote }}</q>
       <div class="info">
+        <p>{{quote.timeLapse | timeCount}} seconds ago</p> 
         <p style="font-weight: 700">Blogger: {{ quote.blogger }}</p>
         <p
           style="
@@ -32,9 +33,10 @@
         <div>
           <img
             (click)="removeQuote(quote.id)"
-            src="https://img.icons8.com/fluency-systems-filled/64/000000/filled-trash.png"
+            src="https://img.icons8.com/small/16/fa314a/filled-trash.png"
             style="height: 30px"
           />
+          <!-- <img src="https://img.icons8.com/small/16/fa314a/filled-trash.png"/> -->
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { IconsComponent } from './icons/icons.component';
 import { FooterComponent } from './footer/footer.component';
+import { TimeCountPipe } from './time-count.pipe';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     QuoteDetailsComponent,
     IconsComponent,
     FooterComponent,
+    TimeCountPipe,
   ],
   imports: [
     BrowserModule,

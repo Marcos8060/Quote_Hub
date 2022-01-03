@@ -12,7 +12,7 @@ export class AppComponent {
     new Quote(
       Quote.getRandomId(),
       'In order to get something you never had, you have to do something you never did',
-      'Coach pain',
+      'Denzel Washington',
       'Marcos Ochieng')
   ];
 

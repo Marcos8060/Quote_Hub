@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Moon+Dance&family=Poppins:wght@200;600;700&display=swap');
+
 .form_container{
-    background: #E5E5E5;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
 }
 .form{
-    width: 50%;
-    margin: auto;
+    flex: 0.4;
+}
+.info{
+    flex: 0.4;
+    font-family: 'Carattere', cursive;
+    font-size: 28px;
+}
+.info > button{
+    background: #C4362E;
+    color: white;
+    border: none;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info > button:hover{
+    background: white;
+    color: #C4362E;
+    border: 2px solid #C4362E;
+    transition: 1s ease-in-out
 }
 .btn{
-    background: #1C4086;
+    background: #C4362E;
     color: white;
     margin-bottom: 20px;
 }
