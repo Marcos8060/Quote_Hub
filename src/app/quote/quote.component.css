@@ -18,8 +18,8 @@
     width: 90%;
     color: black;
     border-radius: 5px;
-    padding: 30px;
-    box-shadow: 0px 0px 4px 1px gray;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 4px 2px gray;
 }
 .quote > q{
     font-family: 'Carattere', cursive;
