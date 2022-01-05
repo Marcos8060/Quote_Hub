@@ -9,22 +9,9 @@ export class TimeCountPipe implements PipeTransform {
     
     let today = new Date()
     let todayWithTime:any = today.getTime();
-    var dateDifference = Math.abs(value - todayWithTime)
-    console.log(dateDifference);
+    var seconds = Math.abs(value - todayWithTime)
+    console.log(seconds);
     
-    
-    
-    
-
-
-    
-    
-
-    
-
-
-
-    return null;
+    return seconds;
   }
-
 }

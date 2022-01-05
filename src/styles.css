@@ -3,3 +3,6 @@ body{
     font-family: 'Poppins', sans-serif;
     /* background: #F1F5F8; */
 }
+.highlight{
+    background: blue;
+}

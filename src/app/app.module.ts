@@ -11,6 +11,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { IconsComponent } from './icons/icons.component';
 import { FooterComponent } from './footer/footer.component';
 import { TimeCountPipe } from './time-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { TimeCountPipe } from './time-count.pipe';
     IconsComponent,
     FooterComponent,
     TimeCountPipe,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
