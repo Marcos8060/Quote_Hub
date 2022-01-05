@@ -23,3 +23,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .details{
+        width: 700px;
+    }
+}
+@media (max-width: 500px) {
+    .details{
+        width: 438px;
+    }
+}

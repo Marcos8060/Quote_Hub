@@ -11,3 +11,19 @@
 .container-fluid{
     background: #EEEEEE;
 }
+
+@media (max-width: 768px) {
+    .row{
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .row{
+        flex-direction: column;
+    }
+ }
+ @media (max-width: 480px) {
+    .row{
+        flex-direction: column;
+    }
+ }

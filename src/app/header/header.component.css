@@ -34,3 +34,31 @@
     border: 2px solid #C4362E;
     transition: 1s ease-in-out
 }
+/* media query */
+@media (max-width: 768px) {
+    .hero{
+        width: 700px;
+        flex-direction: column;
+    }
+    .hero > div > img{
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .hero{
+        width: 450px;
+        flex-direction: column;
+    }
+    .hero > div > img{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .hero{
+        width: 430px;
+        flex-direction: column;
+    }
+    .hero > div > img{
+        width: 100%;
+    }
+}

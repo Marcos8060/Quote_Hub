@@ -35,3 +35,40 @@
     color: white;
     margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+    .form_container{
+        flex-direction: column;
+    }
+    .form_container > div > input{
+        width: 700px;
+    }
+    .info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+}
+@media (max-width: 500px) {
+    .form_container{
+        flex-direction: column;
+    }
+    .form_container > div > input{
+        width: 450px;
+    }
+   .info{
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+}
+@media (max-width: 480px) {
+    .form_container{
+        flex-direction: column;
+    }
+    .form_container > div > input{
+        width: 380px;
+    }
+   .info{
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+}
